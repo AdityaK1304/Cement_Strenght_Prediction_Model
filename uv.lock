@@ -315,6 +315,7 @@ dependencies = [
     { name = "loguru" },
     { name = "matplotlib" },
     { name = "mlflow" },
+    { name = "mpa" },
     { name = "numpy" },
     { name = "optuna" },
     { name = "pandas" },
@@ -336,6 +337,7 @@ requires-dist = [
     { name = "loguru", specifier = ">=0.7.3" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "mlflow", specifier = ">=3.9.0" },
+    { name = "mpa", specifier = ">=0.1.1b6" },
     { name = "numpy", specifier = ">=2.4.2" },
     { name = "optuna", specifier = ">=4.7.0" },
     { name = "pandas", specifier = ">=2.3.3" },
@@ -2004,6 +2006,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/ea/5d/38b681d3fce7a266d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a4/8e/469e5a4a2f5855992e425f3cb33804cc07bf18d48f2db061aec61ce50270/more_itertools-10.8.0-py3-none-any.whl", hash = "sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b", size = 69667, upload-time = "2025-09-02T15:23:09.635Z" },
 ]
+
+[[package]]
+name = "mpa"
+version = "0.1.1b6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6c/c9/4b3b9610f042bf56c26a10d5847546505037c82b05d3ede3b1a8dff40d3f/mpa-0.1.1b6.tar.gz", hash = "sha256:11540ff05a3b0ca347ca4a1f4feaa4ea7b62e6aab8149c89ec4f81967b731908", size = 27841, upload-time = "2015-07-09T15:02:04.133Z" }
 
 [[package]]
 name = "multidict"

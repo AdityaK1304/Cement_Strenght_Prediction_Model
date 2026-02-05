@@ -12,6 +12,7 @@ dependencies = [
     "loguru>=0.7.3",
     "matplotlib>=3.10.8",
     "mlflow>=3.9.0",
+    "mpa>=0.1.1b6",
     "numpy>=2.4.2",
     "optuna>=4.7.0",
     "pandas>=2.3.3",
